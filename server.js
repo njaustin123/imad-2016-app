@@ -16,7 +16,7 @@ var article1 = {
 
 function createHTML(data){
 var title = data.title;
-var header = data.header;
+var heading = data.heading;
 var date = data.date;
 var content = data.content;
 
@@ -35,7 +35,7 @@ var htmlTemplate =`
             </div>
             <hr/>
             <h3>
-                ${header}
+                ${heading}
             </h3>
             <div>
                 ${date}
